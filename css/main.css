@@ -25,3 +25,21 @@ img {
   display: block;
   width: 100%;
 }
+
+nav li {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li a {
+  color: #3783a3;
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+  "banner banner banner"
+  "viewing gravel symbolism"
+
+}
